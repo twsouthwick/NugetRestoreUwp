@@ -3945,6 +3945,9 @@
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
+      "files": {
+        "lib/netstandard1.4/KeePass.Models.dll": "C:\\Users\\tasou\\Projects\\Software\\KeePassWin\\src\\KeePassLib\\bin\\placeholder\\netstandard1.4\\KeePass.Models.dll"
+      },
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {}
@@ -3954,14 +3957,13 @@
     "frameworks": {
       "netstandard1.4": {
         "dependencies": {
+          "NETStandard.Library": {
+            "target": "Package",
+            "version": "1.6.0"
+          },
           "KeePassLib": {
             "target": "Package",
             "version": "2.34.0-ci0028"
-          },
-          "NETStandard.Library": {
-            "target": "Package",
-            "version": "1.6.0",
-            "autoReferenced": true
           }
         }
       }

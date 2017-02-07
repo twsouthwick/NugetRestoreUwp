@@ -943,6 +943,12 @@
         "dependencies": {
           "KeePassLib": "2.34.0-ci0028",
           "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
         }
       }
     }
@@ -3958,6 +3964,9 @@
       "originalTargetFrameworks": [
         "netstandard1.4"
       ],
+      "files": {
+        "lib/netstandard1.4/KeePass.Win.ViewModels.dll": "C:\\Users\\tasou\\Projects\\Software\\KeePassWin\\src\\KeePass.Win.ViewModels\\bin\\placeholder\\netstandard1.4\\KeePass.Win.ViewModels.dll"
+      },
       "frameworks": {
         "netstandard1.4": {
           "projectReferences": {
@@ -3973,8 +3982,7 @@
         "dependencies": {
           "NETStandard.Library": {
             "target": "Package",
-            "version": "1.6.0",
-            "autoReferenced": true
+            "version": "1.6.0"
           }
         }
       }

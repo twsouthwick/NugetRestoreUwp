@@ -726,6 +726,12 @@
         "dependencies": {
           "KeePassLib": "2.34.0-ci0028",
           "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
         }
       }
     },
@@ -1406,6 +1412,12 @@
         "dependencies": {
           "KeePassLib": "2.34.0-ci0028",
           "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
         }
       }
     },
@@ -2086,6 +2098,12 @@
         "dependencies": {
           "KeePassLib": "2.34.0-ci0028",
           "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
         }
       }
     },
@@ -2766,6 +2784,12 @@
         "dependencies": {
           "KeePassLib": "2.34.0-ci0028",
           "NETStandard.Library": "1.6.0"
+        },
+        "compile": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netstandard1.4/KeePass.Models.dll": {}
         }
       }
     }
@@ -5585,9 +5609,13 @@
       "projectPath": "C:\\Users\\tasou\\Projects\\Software\\KeePassWin\\test\\KeePassLib.Test\\KeePassLib.Test.csproj",
       "outputPath": "C:\\Users\\tasou\\Projects\\Software\\KeePassWin\\test\\KeePassLib.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
       "originalTargetFrameworks": [
-        "net461"
+        ".NETFramework,Version=v4.6.1"
       ],
+      "files": {
+        "lib/net461/KeePassLib.Test.dll": "C:\\Users\\tasou\\Projects\\Software\\KeePassWin\\test\\KeePassLib.Test\\bin\\placeholder\\net461\\KeePassLib.Test.dll"
+      },
       "frameworks": {
         "net461": {
           "projectReferences": {
@@ -5596,20 +5624,6 @@
             }
           }
         }
-      }
-    },
-    "dependencies": {
-      "xunit": {
-        "target": "Package",
-        "version": "2.1.0"
-      },
-      "xunit.runner.visualstudio": {
-        "target": "Package",
-        "version": "2.1.0"
-      },
-      "NSubstitute": {
-        "target": "Package",
-        "version": "1.10.0"
       }
     },
     "frameworks": {
